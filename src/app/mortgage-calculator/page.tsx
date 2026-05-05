@@ -1,0 +1,7 @@
+import MortgageCalculator from './PageClient';
+
+export const dynamic = 'force-dynamic';
+
+export default function Page() {
+  return <MortgageCalculator />;
+}
